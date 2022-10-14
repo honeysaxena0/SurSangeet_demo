@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/audition.css">
+
+    <title>SurSangeet-Audition</title>
+
+
+</head>
+
+<body>
+    <!-- ==========Preloader========== -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ==========Preloader========== -->
+    <!-- ==========Overlay========== -->
+    <div class="overlay"></div>
+    <a href="#0" class="scrollToTop">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- ==========Overlay========== -->
+
+    <!-- ==========Header-Section========== -->
+    <header class="header-section">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/ChangedLogo.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="index-2.html" >Home</a>
+                    <li>
+                        <a href="#0">events</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="events.html">Events</a>
+                            </li>
+                            <li>
+                                <a href="event-details.html">Event Details</a>
+                            </li>
+                            <li>
+                                <a href="event-speaker.html">Event Speaker</a>
+                            </li>
+                            <li>
+                                <a href="event-ticket.html">Event Ticket</a>
+                            </li>
+                            <li>
+                                <a href="event-checkout.html">Event Checkout</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#0" class="active">pages</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="apps-download.html">Apps Download</a>
+                            </li>
+                            <li>
+                                <a href="sign-in.html">Sign In</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">Sign Up</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#0">blog</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="blog-details.html">Blog Single</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact</a>
+                    </li>
+                    <li class="header-button pr-0">
+                        <a href="sign-up.html">join us</a>
+                    </li>
+                </ul>
+                <div class="header-bar d-lg-none">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+            </div>
+        </div>
+    </header>
+    <!-- ==========Header-Section========== -->
+<!-- spacer -->
+<Div class="top_spacer_audition"></Div>
+ 
+    <div class="audison_page">
+      <div class="audison_left_box">
+        <div class="audison_left_box_center">
+          <h3 class="next_great">BE THE NEXT GREAT</h3>
+          <h1 class="singer">SINGER!</h1>
+          <h4 class="music_margin">Music Platform</h4>
+          <h4 class="music_margin">Talent Search</h4>
+          <h4 class="music_margin">Artist Development</h4>
+          <button class="audison_btn" id="popup-btn">BE DISCOVERED</button>
+          
+        </div>
+
+      </div>
+      <div class="audison_right_box">
+        <video src="home.mp4" autoplay loop muted class="audison_width"></video>
+      </div>
+    </div>
+    <!-- popup -->
+    <div id="popup-wrapper" class="popup-container">
+      <div class="popup-content">
+        <span id="close">&times;</span>
+        <div class="audition_form">
+          <form action="">
+            <p>Name : <input type="text" name="name" placeholder="Enter Your Name" required></p>
+            <p>E-mail: <input type="email" name="name" placeholder="Enter Your Mail" required></p> 
+            <p>Mobile: <input type="text" name="name" placeholder="Enter Your Mobile" required></p> 
+            <p>Select Age Group: <select class="form-control" name="age_group" id="agegroup">
+              <option value="" selected="">Age Group</option>
+              <option value="junior">Junior (5 to 15)</option>
+              <option value="senior">Senior (16 to 45)</option>
+          </select> </p>
+          <p>Select Gender: <select class="form-control" name="age_group" id="agegroup">
+            <option value="" selected="">Gender</option>
+            <option value="junior">Male</option>
+            <option value="senior">Female</option>
+            <option value="senior">Others</option>
+        </select> </p>
+        <p>City: <input type="text" name="name" placeholder="City You Live In" required></p>  
+        <p>Upload Audio Or Video: <input type="file" name="name" placeholder="Audio Or Video" required></p> 
+        <button type="submit">Submit</button>
+
+                
+        </div>
+      </div>
+    </div>
+    <script>
+    var popup = document.getElementById('popup-wrapper');
+var btn = document.getElementById("popup-btn");
+var span = document.getElementById("close");
+btn.onclick = function() {
+    popup.classList.add('show');
+}
+span.onclick = function() {
+    popup.classList.remove('show');
+}
+
+window.onclick = function(event) {
+    if (event.target == popup) {
+        popup.classList.remove('show');
+    }
+}
+</script>
+    <!-- popup -->
+<!-- section 2 -->
+<div class="demo_page">
+    <div class="demo_page_content_page1">
+      <div class="demo_page_content_page1_heading">
+        <span>RECORD & UPLOAD<br /></span>
+
+        <span>YOUR DEMO</span>
+      </div>
+      <div class="demo_page_content_page1_text">
+        <div class="demo_page_content_page1_text_para">
+          <p>
+            Once your upload and your profile<br />
+            are complete, our esteemed<br />
+            mentors and their teams will listen <br />to your demo and provide
+            helpful <br />guidance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- section end -->
+
+    <div class="discovered">
+      <div class="heading_with_boxex">
+        <div class="discovered_heading">
+          <span>BE</span> <span> DISCOVERED</span>
+        </div>
+        <div class="discovered_boxes">
+          <div class="box_First">
+            <a href="#" class="align_discoverd_box">
+              <div class="discoverd_box_desc">
+                <div class="img_no">
+                  <div class="audison_img">
+                    <img src="cloud-computing (1).png" alt="" />
+                  </div>
+                  <div class="audison_img_no">
+                    <h6>01</h6>
+                  </div>
+                </div>
+                <div class="discovered_heading_inside_box">
+                  <h4 class="discovered_heading_inside_box">
+                    Upload Your Demo
+                  </h4>
+                </div>
+                <div class="discovered_para">
+                  <p>Record and upload your video or audio demo to SurSangeet</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="box_First">
+            <a href="#" class="align_discoverd_box">
+              <div class="discoverd_box_desc">
+                <div class="img_no">
+                  <div class="audison_img">
+                    <img src="magnifier.png" alt="" />
+                  </div>
+                  <div class="audison_img_no">
+                    <h6>02</h6>
+                  </div>
+                </div>
+                <div class="discovered_heading_inside_box">
+                  <h4 class="discovered_heading_inside_box">Mentor Guidance</h4>
+                </div>
+                <div class="discovered_para">
+                  <p>
+                    Creat your profile & receive a review and guidance
+                    from a team of porfessionals
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="box_First">
+            <a href="#" class="align_discoverd_box">
+              <div class="discoverd_box_desc">
+                <div class="img_no">
+                  <div class="audison_img">
+                    <img src="christmas-stars.png" alt="" />
+                  </div>
+                  <div class="audison_img_no">
+                    <h6>03</h6>
+                  </div>
+                </div>
+                <div class="discovered_heading_inside_box">
+                  <h4 class="discovered_heading_inside_box">
+                    Grow Your Fanbase
+                  </h4>
+                </div>
+                <div class="discovered_para">
+                  <p>Be seen and heard by thousands of fans</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="box_First">
+            <a href="#" class="align_discoverd_box">
+              <div class="discoverd_box_desc">
+                <div class="img_no">
+                  <div class="audison_img">
+                    <img src="shuttle.png" alt="" />
+                  </div>
+                  <div class="audison_img_no">
+                    <h6>04</h6>
+                  </div>
+                </div>
+                <div class="discovered_heading_inside_box">
+                  <h4 class="discovered_heading_inside_box">Be Dicovered</h4>
+                </div>
+                <div class="discovered_para">
+                  <p>Get selected to be released worldwide by SurSangeet</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+   
+
+
+  <!-- ==========Newslater-Section========== -->
+  <footer class="footer-section">
+    <div class="newslater-section padding-bottom">
+        <div class="container">
+            <div class="newslater-container bg_img" data-background="assets/images/newslater/newslater-bg01.jpg">
+                <div class="newslater-wrapper">
+                    <h5 class="cate">subscribe to Sur-Sangeet </h5>
+                    <h3 class="title">to get exclusive benifits</h3>
+                    <form class="newslater-form">
+                        <input type="text" placeholder="Your Email Address">
+                        <button type="submit">subscribe</button>
+                    </form>
+                    <p>We respect your privacy, so we never share your info</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer-top">
+            <div class="logo">
+                <a href="index-1.html">
+                    <img src="assets/images/footer/.png" alt="footer">
+                </a>
+            </div>
+            <ul class="social-icons">
+                <li>
+                    <a href="#0">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#0" class="active">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-area">
+                <div class="left">
+                    <p>Copyright © 2020.All Rights Reserved By <a href="#0">Sur-Sangeet </a></p>
+                </div>
+                <ul class="links">
+                    <li>
+                        <a href="#0">About</a>
+                    </li>
+                    <li>
+                        <a href="#0">Terms Of Use</a>
+                    </li>
+                    <li>
+                        <a href="#0">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#0">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#0">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ==========Newslater-Section========== -->
+
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/modernizr-3.6.0.min.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/magnific-popup.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/countdown.min.js"></script>
+<script src="assets/js/odometer.min.js"></script>
+<script src="assets/js/viewport.jquery.js"></script>
+<script src="assets/js/nice-select.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
