@@ -756,7 +756,7 @@ p:last-child {
     margin-top: -10px;
   }
   h5 {
-    font-size: 24px;
+    font-size: 15px;
     margin-top: -8px;
   }
   h6 {
@@ -871,13 +871,13 @@ input[type="submit"] {
 }
 
 .padding-bottom {
-  margin-top: 10%;
+  margin-top: 3%;
   padding-bottom: 80px;
 }
 
 @media (min-width: 992px) {
   .padding-top {
-    padding-top: 120px;
+    padding-top: 40px;
   }
   .padding-bottom {
     padding-bottom: 30px;
@@ -3512,7 +3512,6 @@ input[type="submit"] {
           box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
   /* border-top: 1px solid #000;
   border-bottom: 1px solid #000; */
-  margin-top: 53px;
 }
 
 .search-tab .tab-area::before {
@@ -5876,6 +5875,7 @@ input[type="submit"] {
 
 .mb--20 {
   margin-bottom: -20px;
+  display: none;
 }
 
 /*Event-Book-Search Starts Here*/
@@ -9040,6 +9040,7 @@ aside {
   text-transform: uppercase;
   border-radius: 25px;
   display: inline-block;
+  margin-top: 20px;
 }
 
 .custom-button:hover {
@@ -9167,8 +9168,8 @@ aside {
 
 
 .join_contanier{
-  padding: 60px 0px;
-  margin-top: 80px;
+  padding: 40px 0px;
+  margin-top: 50px;
   width: 100%;
   /* border: 1px solid black; */
   display: flex;
@@ -9207,7 +9208,7 @@ aside {
 
 
 .artist{
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 40px 0;
   width: 100%;
   /* border: 1px solid black; */
@@ -9218,17 +9219,53 @@ aside {
   width: 90%;
   /* border: 1px solid black; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .artist_img_with_desc{
   padding: 30px 20px;
-  width: 23%;
-  border:1px solid black;
+  width: 15%;
   border-radius: 25px;
-  background: #b20606;
+  background: #b2060600;
 }
-.artist_img_with_desc:hover{
-  background: -webkit-linear-gradient(169deg, #b20606 17%, #ffb600 63%, #ff0000 100%);
+.item_flex {
+  margin-top: 25px;
+}
+.wrap_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  /* margin-top: -5%; */
+}
+
+.speaker-gallery {
+  margin-top: 50px;
+}
+.about_event_heading h1{
+  font-size: 50px;
+  width: 38%;
+}
+.about_event_desc {
+  padding: 25px 212px;
+}
+.about_event{
+  background-color:#7d0404;
+}
+.about_event_heading{
+  text-align: center;
+}
+.about_event_desc :nth-child(2){
+  font-size: 20px;
+}
+.about_event_desc :nth-child(3){
+  font-size: 20px;
+}
+.artist h1 {
+  margin-left: 145px;
+  font-size: 51px;
+}
+.artist{
+  display: flex;
+  flex-direction: column;
 }
 .artist_img{
   display: flex;
@@ -9237,6 +9274,7 @@ aside {
   border-radius: 50%;
   overflow: hidden;
   width: 100%;
+  background: #b0b0b0;
 }
 .img_name {
   text-align: center;
